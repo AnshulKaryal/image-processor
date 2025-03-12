@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "author": "anshul_karyal",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "axios": "^1.8.2",
+    "body-parser": "^1.20.3",
+    "bull": "^4.16.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "file-stream-rotator": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^8.0.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0",
+    "sharp": "^0.33.5",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  }
+}
